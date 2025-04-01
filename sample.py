@@ -11,7 +11,7 @@ import gc
 from concurrent.futures import ThreadPoolExecutor
 
 # Security: Use Streamlit secrets for API keys
-GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+GEMINI_API_KEY = "AIzaSyDD0BzkWZhyylV-l6euP8s3shySnkPPnug"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Optimized Model Loading with TFLite
